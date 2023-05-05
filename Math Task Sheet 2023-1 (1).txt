@@ -1,0 +1,11 @@
+﻿Part 2 (5%): Maths question
+Write a MATLAB code to solve the following boundary value problem using the Finite Difference Method:
+∇2u(x,y)=0 on the square 0<x<1,  0<y<1
+subject to the boundary conditions
+u1,y=y
+ux,1=2|x-0.5|
+∂u∂x=0  at  x= 0
+∂u∂y=0  at  y= 0.
+A code to solve the same problem using MATLAB’s Finite Element Method toolbox has been provided for you to compare your solution against.  You should present your finite difference solution in the form of dotted contour lines overlaying the finite element solution, in a figure like so:
+
+Your submission should take the form of a MATLAB script or function that solves the problem as described, and visualises the solution.  You are encouraged to adapt the code you have been developing in your maths workshops. Please submit the mathematical working for this part as a separate pdf file, name as maths_<student number>.PDF. 
